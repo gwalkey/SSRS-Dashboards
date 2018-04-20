@@ -5,8 +5,10 @@ This PBIX is a sample tech demonstrator using SQL DMVs to graph CPU, Memory and 
 
 Built using the PowerBI March 2018 Desktop version
 
-The idea is to publish to the Power BI Reporting Server and seta Data Refresh schedule.
+The idea is to have one Dashboard per server.
 
-Since you CANNOT change the Data Source in the SSRS PBI Portal, you must open the PBIX and change the 
+Since you CANNOT change the Data Source of a published PBIX in the SSRS PBI Portal, you must 
 
-Server connection for all the visualization queries and republish for each server you wish to Monitor
+Open the PBIX in Desktop and change the Server connection for all the visualization queries and republish it back to 
+
+the report server, one for each server you wish to Monitor
